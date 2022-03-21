@@ -1,0 +1,180 @@
+/* Colors
+    primary-color: #E5B9A8;
+    secondary-color: #4A5FC1;
+    dark-color: #394F8A;
+    default-color: #E1FCFD;
+    light-color: #FFFFFF;
+    light-brown: #EAD6CD;
+    light-blue: #9CF6FB;
+*/
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body {
+    background: #E1FCFD;
+    color: #394F8A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.5rem 0;
+    display: block;
+}
+
+/* Paragraph */
+
+p {
+    margin-bottom: 0.4rem;
+    display: block;
+}
+
+/* PADDING */
+
+/* Padding Around */
+
+.p-1 {
+    padding: 1rem!important;
+}
+
+.p-2 {
+    padding: 2rem!important;
+}
+
+.p-3 {
+    padding: 3rem!important;
+}
+
+.p-4 {
+    padding: 4rem!important;
+}
+
+.py-2 {
+    padding: 2rem 0!important;
+}
+
+
+/* Alignment Classes */
+
+.text-left {
+    text-align: left!important;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.text-right {
+    text-align: right!important;
+}
+
+.text-justify {
+    text-align: justify!important;
+}
+
+/* Colors */
+/* Background */
+.bg-default {
+    background-color: #E1FCFD!important;
+}
+
+.bg-light {
+    background-color: #FFFFFF!important;
+}
+
+.bg-primary {
+    background-color: #E5B9A8!important;
+}
+
+.bg-secondary {
+    background-color: #4A5FC1!important;
+}
+
+.bg-dark {
+    background-color: #394F8A!important;
+}
+
+/* Text color */
+.text-default {
+    color: #E1FCFD!important;
+}
+
+.text-light {
+    color: #FFFFFF!important;
+}
+
+.text-primary {
+    color: #E5B9A8!important;
+}
+
+.text-secondary {
+    color: #4A5FC1!important;
+}
+
+.text-dark {
+    color: #394F8A!important;
+}
+
+/* Border color */
+.border-default {
+    border-color: #E1FCFD!important;
+}
+
+.border-light {
+    border-color: #FFFFFF!important;
+}
+
+.border-primary {
+    border-color: #E5B9A8!important;
+}
+
+.border-secondary {
+    border-color: #4A5FC1!important;
+}
+
+.border-dark {
+    border-color: #394F8A!important;
+}
+
+/* Shadow */
+.shadow-default {
+    box-shadow: 0 0 2rem 0 rgba(136,152,170,.15)!important;
+}
+
+/* Container */
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Logo recap */
+
+.logo-recap {
+    background-color: #4A5FC1;
+    border: 1px solid #394F8A;
+    border-radius: 3px;
+    bottom: 10px;
+    color: #9CF6FB;
+    font-weight: bold;
+    padding: 10px 20px;
+    position: fixed;
+    right: 10px;
+    text-transform: uppercase;
+}
+
+.logo-recap .brackets {
+    font-size: 1.3rem;
+}
